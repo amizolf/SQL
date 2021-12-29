@@ -1,0 +1,8 @@
+Create User
+CREATE LOGIN Amir
+WITH PASSWORD = 'NewYear@2022'
+
+create user Amir for login Amir
+
+ALTER ROLE db_owner ADD MEMBER Amir;
+ALTER ROLE db_datareader ADD MEMBER Amir;
